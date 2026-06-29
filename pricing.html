@@ -148,8 +148,8 @@
     </div>
 
     <!-- NOTE -->
-    <div style="background:var(--card-bg);border:1px solid rgba(245,166,35,0.3);border-radius:16px;padding:28px;margin-top:40px;text-align:center;">
-      <p style="color:var(--text-muted);font-size:15px;">💡 <strong style="color:var(--white);">Custom Projects?</strong> Need an e-commerce store, MERN stack app or enterprise solution? <a href="contact.html" style="color:var(--primary);text-decoration:underline;">Contact us for a custom quote.</a></p>
+    <div class="pricing-note">
+      <p>💡 <strong>Custom Projects?</strong> Need an e-commerce store, MERN stack app or enterprise solution? <a href="contact.html" style="color:var(--primary);text-decoration:underline;">Contact us for a custom quote.</a></p>
     </div>
   </div>
 </section>
@@ -161,58 +161,58 @@
       <span class="section-tag">Compare Plans</span>
       <h2 class="section-title">Detailed <span>Feature Comparison</span></h2>
     </div>
-    <div style="overflow-x:auto;margin-top:50px;">
-      <table style="width:100%;border-collapse:collapse;font-size:14px;">
+    <div class="comparison-section">
+      <table class="comparison-table">
         <thead>
-          <tr style="border-bottom:1px solid var(--border);">
-            <th style="text-align:left;padding:16px 20px;color:var(--text-muted);font-weight:600;">Feature</th>
-            <th style="padding:16px 20px;color:var(--white);font-family:'Exo 2',sans-serif;">Starter</th>
-            <th style="padding:16px 20px;color:var(--primary);font-family:'Exo 2',sans-serif;background:rgba(245,166,35,0.05);">Business</th>
-            <th style="padding:16px 20px;color:var(--white);font-family:'Exo 2',sans-serif;">Premium</th>
+          <tr>
+            <th>Feature</th>
+            <th>Starter</th>
+            <th>Business</th>
+            <th>Premium</th>
           </tr>
         </thead>
         <tbody>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:14px 20px;color:var(--text-muted);">Number of Pages</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);">5</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);background:rgba(245,166,35,0.03);">10</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);">15</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:14px 20px;color:var(--text-muted);">Responsive Design</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">✓</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);background:rgba(245,166,35,0.03);">✓</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">✓</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:14px 20px;color:var(--text-muted);">Admin Panel</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text-muted);">—</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);background:rgba(245,166,35,0.03);">✓</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">Advanced</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:14px 20px;color:var(--text-muted);">Blog / News Management</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text-muted);">—</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);background:rgba(245,166,35,0.03);">✓</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">✓</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:14px 20px;color:var(--text-muted);">SEO Setup</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);">Basic</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);background:rgba(245,166,35,0.03);">Basic</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">Advanced</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:14px 20px;color:var(--text-muted);">Speed Optimization</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text-muted);">—</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text-muted);background:rgba(245,166,35,0.03);">—</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">✓</td>
+          <tr>
+            <td>Number of Pages</td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
           </tr>
           <tr>
-            <td style="padding:14px 20px;color:var(--text-muted);">Free Support</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);">1 Month</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--text);background:rgba(245,166,35,0.03);">3 Months</td>
-            <td style="padding:14px 20px;text-align:center;color:var(--primary);">6 Months</td>
+            <td>Responsive Design</td>
+            <td class="checked">✓</td>
+            <td class="checked">✓</td>
+            <td class="checked">✓</td>
+          </tr>
+          <tr>
+            <td>Admin Panel</td>
+            <td>—</td>
+            <td class="checked">✓</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>Blog / News Management</td>
+            <td>—</td>
+            <td class="checked">✓</td>
+            <td class="checked">✓</td>
+          </tr>
+          <tr>
+            <td>SEO Setup</td>
+            <td>Basic</td>
+            <td>Basic</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>Speed Optimization</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="checked">✓</td>
+          </tr>
+          <tr>
+            <td>Free Support</td>
+            <td>1 Month</td>
+            <td>3 Months</td>
+            <td>6 Months</td>
           </tr>
         </tbody>
       </table>
@@ -227,22 +227,22 @@
       <span class="section-tag">FAQ</span>
       <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
     </div>
-    <div style="max-width:800px;margin:50px auto 0;display:flex;flex-direction:column;gap:16px;">
-      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:24px;">
-        <h4 style="color:var(--white);margin-bottom:10px;">Are there any hidden charges?</h4>
-        <p style="color:var(--text-muted);font-size:14px;line-height:1.7;">No hidden charges at all. The price listed is the final price. Domain and hosting charges may be additional if not included in your plan.</p>
+    <div class="faq-container">
+      <div class="faq-item">
+        <h4>Are there any hidden charges?</h4>
+        <p>No hidden charges at all. The price listed is the final price. Domain and hosting charges may be additional if not included in your plan.</p>
       </div>
-      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:24px;">
-        <h4 style="color:var(--white);margin-bottom:10px;">How long does it take to complete a website?</h4>
-        <p style="color:var(--text-muted);font-size:14px;line-height:1.7;">Typically 5–15 business days depending on the complexity of the project. We'll give you a timeline after reviewing your requirements.</p>
+      <div class="faq-item">
+        <h4>How long does it take to complete a website?</h4>
+        <p>Typically 5–15 business days depending on the complexity of the project. We'll give you a timeline after reviewing your requirements.</p>
       </div>
-      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:24px;">
-        <h4 style="color:var(--white);margin-bottom:10px;">Do you provide hosting and domain?</h4>
-        <p style="color:var(--text-muted);font-size:14px;line-height:1.7;">Yes, we can arrange hosting and domain registration for you at additional cost, or we can deploy on your existing hosting environment.</p>
+      <div class="faq-item">
+        <h4>Do you provide hosting and domain?</h4>
+        <p>Yes, we can arrange hosting and domain registration for you at additional cost, or we can deploy on your existing hosting environment.</p>
       </div>
-      <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:24px;">
-        <h4 style="color:var(--white);margin-bottom:10px;">Can I upgrade my plan later?</h4>
-        <p style="color:var(--text-muted);font-size:14px;line-height:1.7;">Absolutely! You can upgrade your plan at any time. We'll make the necessary changes and charge only the difference.</p>
+      <div class="faq-item">
+        <h4>Can I upgrade my plan later?</h4>
+        <p>Absolutely! You can upgrade your plan at any time. We'll make the necessary changes and charge only the difference.</p>
       </div>
     </div>
   </div>
