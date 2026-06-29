@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://idyatrack.com/sitemap.xml
+Sitemap: https://idyatrack.in/sitemap.xml
