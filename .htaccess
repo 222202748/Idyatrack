@@ -1,0 +1,47 @@
+# IdyaTrack Website .htaccess
+# SEO and MIME type configuration
+
+# Enable GZIP compression for better performance
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Set correct MIME types
+AddType application/xml .xml
+AddType application/rss+xml .rss
+AddType text/css .css
+AddType application/javascript .js
+AddType image/jpeg .jpg .jpeg
+AddType image/png .png
+AddType image/gif .gif
+AddType image/svg+xml .svg
+AddType image/webp .webp
+
+# Force UTF-8 encoding
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .xml
+
+# Enable browser caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/xml "access plus 1 week"
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes
+
+# Error pages (optional)
+ErrorDocument 404 /index.html
+
+# Rewrite for clean URLs (optional - currently not needed)
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   RewriteCond %{REQUEST_FILENAME}\.html -f
+#   RewriteRule ^(.*)$ $1.html [L]
+# </IfModule>

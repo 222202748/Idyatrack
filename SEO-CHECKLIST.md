@@ -60,7 +60,7 @@
 - [ ] A/B testing for better conversions
 
 ## Notes
-- Replace `idyatrack.com` with your actual domain once live
+- Replace `idyatrack.in` with your actual domain once live
 - Create the Open Graph image (1200x630 pixels)
 - Complete Google Business Profile setup
 - Submit sitemap to Google Search Console
