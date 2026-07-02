@@ -24,7 +24,6 @@
 - [x] Local keywords in meta tags ("Chennai", "Tamil Nadu", "Kundrathur")
 - [x] NAP consistency across all pages
 
-## Content SEO
 - [ ] Create high-quality, original content regularly
 - [ ] Blog section (optional, for SEO boost)
 - [ ] Internal linking between related pages
